@@ -1,0 +1,279 @@
+Country,ISO-ALPHA-2,ISO-ALPHA-3,IOC,FIFA,country_alt,latitude,longitude
+Antarctica,AQ,ATA,,,Antarctica,-75.250973,-0.071389
+South Georgia and the South Sandwich Islands,GS,SGS,,,South Georgia and the South Sandwich Islands,-54.429579,-36.587909
+Bouvet Island,BV,BVT,,,Bouvet Island,-54.423199,3.413194
+Heard Island and McDonald Islands,HM,HMD,,,Heard Island and McDonald Islands,-53.08181,73.504158
+Falkland Islands,FK,FLK,,,Falkland Islands [Islas Malvinas],-51.796253,-59.523613
+French Southern and Antarctic Lands,TF,ATF,,,French Southern Territories,-49.280366,69.348557
+New Zealand,NZ,NZL,NZL,NZL,New Zealand,-40.900557,174.885971
+Argentina,AR,ARG,ARG,ARG,Argentina,-38.416097,-63.616672
+Chile,CL,CHL,CHI,CHI,Chile,-35.675147,-71.542969
+Uruguay,UY,URY,URU,URU,Uruguay,-32.522779,-55.765835
+South Africa,ZA,ZAF,RSA,RSA,South Africa,-30.559482,22.937506
+Lesotho,LS,LSO,LES,LES,Lesotho,-29.609988,28.233608
+Norfolk Island,NF,NFK,,,Norfolk Island,-29.040835,167.954712
+Eswatini,SZ,SWZ,SWZ,SWZ,Swaziland,-26.522503,31.465866
+Australia,AU,AUS,AUS,AUS,Australia,-25.274398,133.775136
+Pitcairn Islands,PN,PCN,,,Pitcairn Islands,-24.703615,-127.439308
+"Saint Helena, Ascension and Tristan da Cunha",SH,SHN,,,Saint Helena,-24.143474,-10.030696
+Paraguay,PY,PRY,PAR,PAR,Paraguay,-23.442503,-58.443832
+Namibia,NA,NAM,NAM,NAM,Namibia,-22.95764,18.49041
+Botswana,BW,BWA,BOT,BOT,Botswana,-22.328474,24.684866
+Cook Islands,CK,COK,COK,COK,Cook Islands,-21.236736,-159.777671
+Tonga,TO,TON,TGA,TGA,Tonga,-21.178986,-175.198242
+Réunion,RE,REU,,,Réunion,-21.115141,55.536384
+New Caledonia,NC,NCL,,NCL,New Caledonia,-20.904305,165.618042
+Mauritius,MU,MUS,MRI,MRI,Mauritius,-20.348404,57.552152
+Niue,NU,NIU,,,Niue,-19.054445,-169.867233
+Zimbabwe,ZW,ZWE,ZIM,ZIM,Zimbabwe,-19.015438,29.154857
+Madagascar,MG,MDG,MAD,MAD,Madagascar,-18.766947,46.869107
+Mozambique,MZ,MOZ,MOZ,MOZ,Mozambique,-18.665695,35.529562
+French Polynesia,PF,PYF,,TAH,French Polynesia,-17.679742,-149.406843
+Fiji,FJ,FJI,FIJ,FIJ,Fiji,-16.578193,179.414413
+Bolivia,BO,BOL,BOL,BOL,Bolivia,-16.290154,-63.588653
+Vanuatu,VU,VUT,VAN,VAN,Vanuatu,-15.376706,166.959158
+American Samoa,AS,ASM,ASA,ASA,American Samoa,-14.270972,-170.132217
+Brazil,BR,BRA,BRA,BRA,Brazil,-14.235004,-51.92528
+Wallis and Futuna,WF,WLF,,,Wallis and Futuna,-13.768752,-177.156097
+Samoa,WS,WSM,SAM,SAM,Samoa,-13.759029,-172.104629
+Malawi,MW,MWI,MAW,MWI,Malawi,-13.254308,34.301525
+Zambia,ZM,ZMB,ZAM,ZAM,Zambia,-13.133897,27.849332
+Mayotte,YT,MYT,,,Mayotte,-12.8275,45.166244
+Cocos (Keeling) Islands,CC,CCK,,,Cocos [Keeling] Islands,-12.164165,96.870956
+Comoros,KM,COM,COM,COM,Comoros,-11.875001,43.872219
+Angola,AO,AGO,ANG,ANG,Angola,-11.202692,17.873887
+Christmas Island,CX,CXR,,,Christmas Island,-10.447525,105.690449
+Solomon Islands,SB,SLB,SOL,SOL,Solomon Islands,-9.64571,160.156194
+Peru,PE,PER,PER,PER,Peru,-9.189967,-75.015152
+Tokelau,TK,TKL,,,Tokelau,-8.967363,-171.855881
+Timor-Leste,TL,TLS,TLS,TLS,Timor-Leste,-8.874217,125.727539
+Tuvalu,TV,TUV,TUV,,Tuvalu,-7.109535,177.64933
+Tanzania,TZ,TZA,TAN,TAN,Tanzania,-6.369028,34.888822
+British Indian Ocean Territory,IO,IOT,,,British Indian Ocean Territory,-6.343194,71.876519
+Papua New Guinea,PG,PNG,PNG,PNG,Papua New Guinea,-6.314993,143.95555
+Seychelles,SC,SYC,SEY,SEY,Seychelles,-4.679574,55.491977
+"Congo, Democratic Republic of the",CD,COD,COD,COD,Congo [DRC],-4.038333,21.758664
+Zaire,,ZAR,ZAI,ZAI,Congo [DRC],-4.038333,21.758664
+Burundi,BI,BDI,BDI,BDI,Burundi,-3.373056,29.918886
+Kiribati,KI,KIR,KIR,,Kiribati,-3.370417,-168.734039
+Rwanda,RW,RWA,RWA,RWA,Rwanda,-1.940278,29.873888
+Ecuador,EC,ECU,ECU,ECU,Ecuador,-1.831239,-78.183406
+Gabon,GA,GAB,GAB,GAB,Gabon,-0.803689,11.609444
+Indonesia,ID,IDN,INA,IDN,Indonesia,-0.789275,113.921327
+Nauru,NR,NRU,NRU,,Nauru,-0.522778,166.931503
+"Congo, Republic of the",CG,COG,CGO,CGO,Congo [Republic],-0.228021,15.827659
+Kenya,KE,KEN,KEN,KEN,Kenya,-0.023559,37.906193
+São Tomé and Príncipe,ST,STP,STP,STP,São Tomé and Príncipe,0.18636,6.613081
+Singapore,SG,SGP,SGP,SIN,Singapore,1.352083,103.819836
+Uganda,UG,UGA,UGA,UGA,Uganda,1.373333,32.290275
+Equatorial Guinea,GQ,GNQ,GEQ,EQG,Equatorial Guinea,1.650801,10.267895
+Maldives,MV,MDV,MDV,MDV,Maldives,3.202778,73.22068
+Suriname,SR,SUR,SUR,SUR,Suriname,3.919305,-56.027783
+French Guiana,GF,GUF,,,French Guiana,3.933889,-53.125782
+Malaysia,MY,MYS,MAS,MAS,Malaysia,4.210484,101.975766
+Brunei,BN,BRN,BRU,BRU,Brunei,4.535277,114.727669
+Colombia,CO,COL,COL,COL,Colombia,4.570868,-74.297333
+Guyana,GY,GUY,GUY,GUY,Guyana,4.860416,-58.93018
+Somalia,SO,SOM,SOM,SOM,Somalia,5.152149,46.199616
+Venezuela,VE,VEN,VEN,VEN,Venezuela,6.42375,-66.58973
+Liberia,LR,LBR,LBR,LBR,Liberia,6.428055,-9.429499
+Central African Republic,CF,CAF,CAF,CTA,Central African Republic,6.611111,20.939444
+Marshall Islands,MH,MHL,MHL,,Marshall Islands,7.131474,171.184478
+Cameroon,CM,CMR,CMR,CMR,Cameroon,7.369722,12.354722
+"Micronesia, Federated States of",FM,FSM,FSM,,Micronesia,7.425554,150.550812
+Palau,PW,PLW,PLW,,Palau,7.51498,134.58252
+Côte d'Ivoire,CI,CIV,CIV,CIV,Côte d'Ivoire,7.539989,-5.54708
+Sri Lanka,LK,LKA,SRI,SRI,Sri Lanka,7.873054,80.771797
+Ceylon,,,CEY,CEY,Sri Lanka,7.873054,80.771797
+Ghana,GH,GHA,GHA,GHA,Ghana,7.946527,-1.023194
+Sierra Leone,SL,SLE,SLE,SLE,Sierra Leone,8.460555,-11.779889
+Panama,PA,PAN,PAN,PAN,Panama,8.537981,-80.782127
+Togo,TG,TGO,TOG,TOG,Togo,8.619543,0.824782
+Nigeria,NG,NGA,NGR,NGA,Nigeria,9.081999,8.675277
+Ethiopia,ET,ETH,ETH,ETH,Ethiopia,9.145,40.489673
+Benin,BJ,BEN,BEN,BEN,Benin,9.30769,2.315834
+Costa Rica,CR,CRI,CRC,CRC,Costa Rica,9.748917,-83.753428
+Guinea,GN,GIN,GUI,GUI,Guinea,9.945587,-9.696645
+Trinidad and Tobago,TT,TTO,TTO,TRI,Trinidad and Tobago,10.691803,-61.222503
+Guinea-Bissau,GW,GNB,GBS,GNB,Guinea-Bissau,11.803749,-15.180413
+Djibouti,DJ,DJI,DJI,DJI,Djibouti,11.825138,42.590275
+"Bonaire, Sint Eustatius and Saba",BQ,BES,,,"Caribbean Netherlands: Bonaire, Sint Eustatius and Saba",12.183333,-68.233333
+Curaçao,CW,CUW,,CUW,Curaçao,12.186111,-68.989444
+Netherlands Antilles,AN,ANT,AHO,ANT,Netherlands Antilles,12.226079,-69.060087
+Burkina Faso,BF,BFA,BUR,BFA,Burkina Faso,12.238333,-1.561593
+Grenada,GD,GRD,GRN,GRN,Grenada,12.262776,-61.604171
+Aruba,AW,ABW,ARU,ARU,Aruba,12.52111,-69.968338
+Cambodia,KH,KHM,CAM,CAM,Cambodia,12.565679,104.990963
+Sudan,SD,SDN,SUD,SDN,Sudan,12.862807,30.217636
+Nicaragua,NI,NIC,NCA,NCA,Nicaragua,12.865416,-85.207229
+Philippines,PH,PHL,PHI,PHI,Philippines,12.879721,121.774017
+Saint Vincent and the Grenadines,VC,VCT,VIN,VIN,Saint Vincent and the Grenadines,12.984305,-61.287228
+Barbados,BB,BRB,BAR,BRB,Barbados,13.193887,-59.543198
+Gambia,GM,GMB,GAM,GAM,The Gambia,13.443182,-15.310139
+Guam,GU,GUM,GUM,GUM,Guam,13.444304,144.793731
+El Salvador,SV,SLV,ESA,SLV,El Salvador,13.794185,-88.89653
+Saint Lucia,LC,LCA,LCA,LCA,Saint Lucia,13.909444,-60.978893
+Viet Nam,VN,VNM,VNM,VSO,Vietnam,14.058324,108.277199
+"Viet-Nam, Democratic Republic of",,VDR,,VNO,,14.058324,108.277199
+Vietnam,,VNM,VIE,VIE,Viet Nam,14.058324,108.277199
+Senegal,SN,SEN,SEN,SEN,Senegal,14.497401,-14.452362
+Martinique,MQ,MTQ,,,Martinique,14.641528,-61.024174
+Eritrea,ER,ERI,ERI,ERI,Eritrea,15.179384,39.782334
+Honduras,HN,HND,HON,HON,Honduras,15.199999,-86.241905
+Dominica,DM,DMA,DMA,DMA,Dominica,15.414999,-61.370976
+Chad,TD,TCD,CHA,CHA,Chad,15.454166,18.732207
+Yemen,YE,YEM,YEM,YEM,Yemen,15.552727,48.516388
+Guatemala,GT,GTM,GUA,GUA,Guatemala,15.783471,-90.230759
+Thailand,TH,THA,THA,THA,Thailand,15.870032,100.992541
+Cape Verde,CV,CPV,CPV,CPV,Cape Verde,16.002082,-24.013197
+Montserrat,MS,MSR,,MSR,Montserrat,16.742498,-62.187366
+Guadeloupe,GP,GLP,,,Guadeloupe,16.995971,-62.067641
+Antigua and Barbuda,AG,ATG,ANT,ATG,Antigua and Barbuda,17.060816,-61.796428
+Belize,BZ,BLZ,BIZ,BLZ,Belize,17.189877,-88.49765
+British Honduras,,,HBR,BHO ,Belize,17.189877,-88.49765
+Northern Mariana Islands,MP,MNP,,,Northern Mariana Islands,17.33083,145.38469
+Saint Kitts and Nevis,KN,KNA,SKN,SKN,Saint Kitts and Nevis,17.357822,-62.782998
+Mali,ML,MLI,MLI,MLI,Mali,17.570692,-3.996166
+Niger,NE,NER,NIG,NIG,Niger,17.607789,8.081666
+Jamaica,JM,JAM,JAM,JAM,Jamaica,18.109581,-77.297508
+Anguilla,AI,AIA,,AIA,Anguilla,18.220554,-63.068615
+Puerto Rico,PR,PRI,PUR,PUR,Puerto Rico,18.220833,-66.590149
+United States Virgin Islands,VI,VIR,ISV,VIR,U.S. Virgin Islands,18.335765,-64.896335
+British Virgin Islands,VG,VGB,IVB,VGB,British Virgin Islands,18.420695,-64.639968
+Dominican Republic,DO,DOM,DOM,DOM,Dominican Republic,18.735693,-70.162651
+Haiti,HT,HTI,HAI,HAI,Haiti,18.971187,-72.285215
+Cayman Islands,KY,CYM,CAY,CAY,Cayman Islands,19.513469,-80.566956
+Laos,LA,LAO,LAO,LAO,Laos,19.85627,102.495496
+India,IN,IND,IND,IND,India,20.593684,78.96288
+Mauritania,MR,MRT,MTN,MTN,Mauritania,21.00789,-10.940835
+Oman,OM,OMN,OMA,OMA,Oman,21.512583,55.923255
+Cuba,CU,CUB,CUB,CUB,Cuba,21.521757,-77.781167
+Turks and Caicos Islands,TC,TCA,,TCA,Turks and Caicos Islands,21.694025,-71.797928
+Burma,MM,BUR,BIR,BUR,Myanmar,21.913965,95.956223
+Myanmar,MM,MMR,MYA,MYA,Burma,21.913965,95.956223
+Macau,MO,MAC,,MAC,Macau,22.198745,113.543873
+Hong Kong,HK,HKG,HKG,HKG,Hong Kong,22.396428,114.109497
+United Arab Emirates,AE,ARE,UAE,UAE,United Arab Emirates,23.424076,53.847818
+Mexico,MX,MEX,MEX,MEX,Mexico,23.634501,-102.552784
+Bangladesh,BD,BGD,BAN,BAN,Bangladesh,23.684994,90.356331
+Taiwan,TW,TWN,TPE,TPE,Taiwan (Province of China) ,23.69781,120.960515
+Saudi Arabia,SA,SAU,KSA,KSA,Saudi Arabia,23.885942,45.079162
+Western Sahara,EH,ESH,,,Western Sahara,24.215527,-12.885834
+Bahamas,BS,BHS,BAH,BAH,The Bahamas,25.03428,-77.39628
+Qatar,QA,QAT,QAT,QAT,Qatar,25.354826,51.183884
+Bahrain,BH,BHR,BRN,BHR,Bahrain,25.930414,50.637772
+Libya,LY,LBY,LBA,LBY,Libya,26.3351,17.228331
+Egypt,EG,EGY,EGY,EGY,Egypt,26.820553,30.802498
+Bhutan,BT,BTN,BHU,BHU,Bhutan,27.514162,90.433601
+Algeria,DZ,DZA,ALG,ALG,Algeria,28.033886,1.659626
+Nepal,NP,NPL,NEP,NEP,Nepal,28.394857,84.124008
+Kuwait,KW,KWT,KUW,KUW,Kuwait,29.31166,47.481766
+Pakistan,PK,PAK,PAK,PAK,Pakistan,30.375321,69.345116
+Jordan,JO,JOR,JOR,JOR,Jordan,30.585164,36.238414
+Israel,IL,ISR,ISR,ISR,Israel,31.046051,34.851612
+Morocco,MA,MAR,MAR,MAR,Morocco,31.791702,-7.09262
+"Palestine, State of",PS,PSE,,,Palestinian Territories,31.952162,35.233154
+Bermuda,BM,BMU,BER,BER,Bermuda,32.321384,-64.75737
+Iran,IR,IRN,IRI,IRN,Iran,32.427908,53.688046
+Iraq,IQ,IRQ,IRQ,IRQ,Iraq,33.223191,43.679291
+Lebanon,LB,LBN,LBN,LIB,Lebanon,33.854721,35.862285
+Tunisia,TN,TUN,TUN,TUN,Tunisia,33.886917,9.537499
+Afghanistan,AF,AFG,AFG,AFG,Afghanistan,33.93911,67.709953
+Syria,SY,SYR,SYR,SYR,Syria,34.802075,38.996815
+Cyprus,CY,CYP,CYP,CYP,Cyprus,35.126413,33.429859
+China,CN,CHN,CHN,CHN,"China, People's Republic of",35.86166,104.195397
+"Korea, Republic of (South)",KR,KOR,KOR,KOR,South Korea,35.907757,127.766922
+Malta,MT,MLT,MLT,MLT,Malta,35.937496,14.375416
+Gibraltar,GI,GIB,,GIB,Gibraltar,36.137741,-5.345374
+Japan,JP,JPN,JPN,JPN,Japan,36.204824,138.252924
+United States,US,USA,USA,USA,United States,37.09024,-95.712891
+Tajikistan,TJ,TJK,TJK,TJK,Tajikistan,38.861034,71.276093
+Turkey,TR,TUR,TUR,TUR,Turkey,38.963745,35.243322
+Turkmenistan,TM,TKM,TKM,TKM,Turkmenistan,38.969719,59.556278
+Greece,GR,GRC,GRE,GRE,Greece,39.074208,21.824312
+Portugal,PT,PRT,POR,POR,Portugal,39.399872,-8.224454
+Armenia,AM,ARM,ARM,ARM,Armenia,40.069099,45.038189
+Azerbaijan,AZ,AZE,AZE,AZE,Azerbaijan,40.143105,47.576927
+"Korea, Democratic People's Rep. (North)",KP,PRK,PRK,PRK,North Korea,40.339852,127.510093
+Spain,ES,ESP,ESP,ESP,Spain,40.463667,-3.74922
+Albania,AL,ALB,ALB,ALB,Albania,41.153332,20.168331
+Kyrgyzstan,KG,KGZ,KGZ,KGZ,Kyrgyzstan,41.20438,74.766098
+Uzbekistan,UZ,UZB,UZB,UZB,Uzbekistan,41.377491,64.585262
+North Macedonia,MK,MKD,MKD,MKD,Macedonia [FYROM],41.608635,21.745275
+Italy,IT,ITA,ITA,ITA,Italy,41.87194,12.56738
+Vatican City State,VA,VAT,,,Vatican City,41.902916,12.453389
+Georgia,GE,GEO,GEO,GEO,Georgia,42.315407,43.356892
+Andorra,AD,AND,AND,AND,Andorra,42.546245,1.601554
+Kosovo,XK,[12],KOS,KVX,Kosovo,42.602636,20.902977
+Montenegro,ME,MNE,MNE,MNE,Montenegro,42.708678,19.37439
+Bulgaria,BG,BGR,BUL,BUL,Bulgaria,42.733883,25.48583
+Monaco,MC,MCO,MON,,Monaco,43.750298,7.412841
+Bosnia and Herzegovina,BA,BIH,BIH,BIH,Bosnia and Herzegovina,43.915886,17.679076
+San Marino,SM,SMR,SMR,SMR,San Marino,43.94236,12.457777
+Serbia,RS,SRB,SRB,SRB,Serbia,44.016521,21.005859
+Croatia,HR,HRV,CRO,CRO,Croatia,45.1,15.2
+Romania,RO,ROU,ROU,ROU,Romania,45.943161,24.96676
+Slovenia,SI,SVN,SLO,SVN,Slovenia,46.151241,14.995463
+France,FR,FRA,FRA,FRA,France,46.227638,2.213749
+Switzerland,CH,CHE,SUI,SUI,Switzerland,46.818188,8.227512
+Mongolia,MN,MNG,MGL,MNG,Mongolia,46.862496,103.846656
+Saint Pierre and Miquelon,PM,SPM,,,Saint Pierre and Miquelon,46.941936,-56.27111
+Hungary,HU,HUN,HUN,HUN,Hungary,47.162494,19.503304
+Liechtenstein,LI,LIE,LIE,LIE,Liechtenstein,47.166,9.555373
+Moldova,MD,MDA,MDA,MDA,Moldova,47.411631,28.369885
+Austria,AT,AUT,AUT,AUT,Austria,47.516231,14.550072
+Kazakhstan,KZ,KAZ,KAZ,KAZ,Kazakhstan,48.019573,66.923684
+Ukraine,UA,UKR,UKR,UKR,Ukraine,48.379433,31.16558
+Slovakia,SK,SVK,SVK,SVK,Slovakia,48.669026,19.699024
+Jersey,JE,JEY,,,Jersey,49.214439,-2.13125
+Guernsey,GG,GGY,,,Guernsey,49.465691,-2.585278
+Luxembourg,LU,LUX,LUX,LUX,Luxembourg,49.815273,6.129583
+Czech Republic,CZ,CZE,CZE,CZE,Czech Republic,49.817492,15.472962
+Belgium,BE,BEL,BEL,BEL,Belgium,50.503887,4.469936
+Germany,DE,DEU,GER,GER,Germany,51.165691,10.451526
+East Germany,DE,DDR,GDR,DDR,East Germany,51.165691,10.451526
+West Germany,DE,DEU,FRG,FRG,West Germany,51.165691,10.451526
+Poland,PL,POL,POL,POL,Poland,51.919438,19.145136
+Netherlands,NL,NLD,NED,NED,Netherlands,52.132633,5.291266
+Ireland,IE,IRL,IRL,IRL,Ireland,53.41291,-8.24389
+Belarus,BY,BLR,BLR,BLR,Belarus,53.709807,27.953389
+Isle of Man,IM,IMN,,,Isle of Man,54.236107,-4.548056
+Lithuania,LT,LTU,LTU,LTU,Lithuania,55.169438,23.881275
+United Kingdom,GB,GBR,GBR,,United Kingdom,55.378051,-3.435973
+Canada,CA,CAN,CAN,CAN,Canada,56.130366,-106.346771
+Denmark,DK,DNK,DEN,DEN,Denmark,56.26392,9.501785
+Latvia,LV,LVA,LAT,LVA,Latvia,56.879635,24.603189
+Estonia,EE,EST,EST,EST,Estonia,58.595272,25.013607
+Sweden,SE,SWE,SWE,SWE,Sweden,60.128161,18.643501
+Åland Islands,,ALA,,,,60.250716,20.374146
+Norway,NO,NOR,NOR,NOR,Norway,60.472024,8.468946
+Russian Federation,RU,RUS,RUS,RUS,Russia,61.52401,105.318756
+Faroe Islands,FO,FRO,,FRO,Faroe Islands,61.892635,-6.911806
+Finland,FI,FIN,FIN,FIN,Finland,61.92411,25.748151
+Iceland,IS,ISL,ISL,ISL,Iceland,64.963051,-19.020835
+Greenland,GL,GRL,,,Greenland,71.706936,-42.604303
+Svalbard and Jan Mayen,SJ,SJM,,,Svalbard and Jan Mayen,77.553604,23.670272
+Czechoslovakia,,CSK,TCH,TCH,,,
+Dahomey,,DHY,DAH,DAH,,,
+England,,,,ENG,,,
+Khmer Republic,,,KHM,,,,
+Malaya,,,MAL,,,,
+North Borneo,,,NBO,NBO,,,
+North Yemen,,YEM,YAR,NYE,,,
+Northern Ireland,,[6],,NIR,,,
+Northern Rhodesia,,,NRH,NRH,,,
+Rhodesia,,RHO,RHO,RHO,,,
+Saint Barthélemy,,BLM,,,,,
+Saint Martin (French part),,MAF,,,,,
+Scotland,,[6],,SCO,,,
+Serbia and Montenegro,,SCG,SCG,SCG,,,
+Sint Maarten (Dutch part),,SXM,,,,,
+South Sudan,,SSD,SSD,SSD,,,
+South Yemen,,YMD,YMD,SYE,,,
+Soviet Union,,SUN,URS,URS,,,
+State of Palestine,,PSE,PLE,PLE,,,
+United States Minor Outlying Islands,UM,UMI,,,U.S. Minor Outlying Islands,,
+Upper Volta,,HVO,VOL,UPV,,,
+Wales,,,,WAL,,,
+Yugoslavia,,YUG,YUG,YUG,"Yugoslavia, Federal Republic of",,
+,,,,,,,
