@@ -11,7 +11,7 @@
 #     - Variable 'reduceTo': Names of the colums you want to reduce 
 #     - Variable 'cumulate': Which calculation should be done with values 
 #       Possible calculation methods:
-#       'Sum', 'Average', 'Min', 'Max'
+#       'Sum', 'Average', 'Min', 'Max', 'Mode', 'Median'
 
 
 
@@ -75,7 +75,7 @@ def median(lst):
   lst_numeric.sort()
   l = len(lst_numeric)
   if l % 2 == 0:
-    res = (lst_numeric[math.floor((l-1)/2)] + lst_numeric[math.ceil((l-1)/2)]) / 2
+    res = (lst_numeric[int(math.floor((l-1)/2))] + lst_numeric[int(math.ceil((l-1)/2))]) / 2
   else:
     res = lst_numeric[int((l-1)/2)]
   return res
