@@ -17,7 +17,6 @@
 
 from __future__ import print_function
 
-
 # ---------------------------------------------
 # Change the parameters according to your task:
 
@@ -39,21 +38,47 @@ decimals = 3                                                  # <--- Adjust here
 reduceTo = ['Sex', 'NOC', 'Medal']                            # <--- Adjust here
 
 # Names of the colums you want to cumulate somehow 
-# (possible calculations: Sum, Average, Min, Max)
-cumulate = [                                                
+# (possible calculations: Sum, Average, Min, Max, Mode, Median)
+cumulate = [
   {'value':'Age', 'method':'Average'},                        # <--- Adjust here
+  {'value':'Sport', 'method':'Mode'},
+  {'value':'Weight', 'method':'Median'},
   {'value':'Height', 'method':'Min'},
   {'value':'Height', 'method':'Max'},
 ]                                     
+
 
 # ---------------------------------------------
 # No need to change anything from here on ...
 
 import sys
 # print(sys.version)
-
 import csv
 from collections import OrderedDict
+import math
+
+def sortOnSecond(val): 
+  return val[1]  
+
+def mode(lst):
+  lst_count = [(x, lst.count(x)) for x in set(lst)]
+  lst_count.sort(key = sortOnSecond, reverse = True)
+  # TODO: if there is more than one most common value, this returns just the first in the list
+  return lst_count[0][0]  
+
+def median(lst):
+  try:
+    lst_numeric = [float(x) for x in lst]
+  except:
+    print('Error: Median can only be used on numeric values')
+    exit()
+  lst_numeric.sort()
+  l = len(lst_numeric)
+  if l % 2 == 0:
+    res = (lst_numeric[math.floor((l-1)/2)] + lst_numeric[math.ceil((l-1)/2)]) / 2
+  else:
+    res = lst_numeric[int((l-1)/2)]
+  return res
 
 
 readFile = open(readFileName)
@@ -89,6 +114,10 @@ for i, row in enumerate(rows):
           dic[key][name] = min(dic[key][name], float(row[field['value']]))
         elif field['method'] == 'Max':
           dic[key][name] = max(dic[key][name], float(row[field['value']]))
+        elif field['method'] == 'Mode':
+          dic[key][name].append(row[field['value']])
+        elif field['method'] == 'Median':
+          dic[key][name].append(row[field['value']])
 
       dic[key]['count'] += 1
 
@@ -96,7 +125,10 @@ for i, row in enumerate(rows):
       newEntry = {'count':1}
       for field in cumulate:
         name = field['value'] + field['method']
-        newEntry[name] = float(row[field['value']])
+        if field['method'] == 'Mode' or field['method'] == 'Median':
+          newEntry[name] = [row[field['value']]]
+        else:
+          newEntry[name] = float(row[field['value']])
 
       dic[key] = newEntry
 
@@ -126,7 +158,13 @@ for key in dic:
   values.append(c)
   for field in cumulate:
     name = field['value'] + field['method']
-    val = round(dic[key][name], decimals)
+    if field['method'] == 'Mode':
+      val = mode(dic[key][name])
+    elif field['method'] == 'Median':
+      val = median(dic[key][name])
+    else:      
+      val = round(dic[key][name], decimals)
+
     values.append(val)
 
   writer.writerow(values)
