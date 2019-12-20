@@ -38,11 +38,16 @@ decimals = 3                                                  # <--- Adjust here
 reduceTo = ['Sex', 'NOC', 'Medal']                            # <--- Adjust here
 
 # Names of the colums you want to cumulate somehow 
-# (possible calculations: Sum, Average, Min, Max, Mode, Median)
+# Possible calculations: Sum, Average, Min, Max, Mode, 
+# Median, Percentile (needs 'p' as percentage)
+# You can give custom titles for the resulting columns,
+# otherwise value+method will be the title. 
 cumulate = [
-  {'value':'Age', 'method':'Average'},                        # <--- Adjust here
+  {'value':'Age', 'method':'Average', 'title':'AgeAv'},       # <--- Adjust here
   {'value':'Sport', 'method':'Mode'},
+  {'value':'Weight', 'method':'Percentile', 'p':0.25, 'title':'WeightQ1'},
   {'value':'Weight', 'method':'Median'},
+  {'value':'Weight', 'method':'Percentile', 'p':0.75, 'title':'WeightQ3'},
   {'value':'Height', 'method':'Min'},
   {'value':'Height', 'method':'Max'},
 ]                                     
@@ -66,18 +71,19 @@ def mode(lst):
   # TODO: if there is more than one most common value, this returns just the first in the list
   return lst_count[0][0]  
 
-def median(lst):
+def percentile(lst, p):
   try:
     lst_numeric = [float(x) for x in lst]
   except:
-    print('Error: Median can only be used on numeric values')
+    print('Error: Median and Percentile can only be used on numeric values')
     exit()
   lst_numeric.sort()
-  l = len(lst_numeric)
-  if l % 2 == 0:
-    res = (lst_numeric[int(math.floor((l-1)/2))] + lst_numeric[int(math.ceil((l-1)/2))]) / 2
-  else:
-    res = lst_numeric[int((l-1)/2)]
+  l = len(lst_numeric) - 1
+  idx = l * p
+  frac = math.modf(idx)[0]
+  val0 = lst_numeric[int(math.floor(idx))]
+  val1 = lst_numeric[int(math.ceil(idx))]
+  res = val0 + (val1 - val0) * frac
   return res
 
 
@@ -87,7 +93,12 @@ reader = csv.DictReader(readFile, delimiter=readDelimiter)
 writeFile = open(writeFileName, 'w')
 writer = csv.writer(writeFile, delimiter=writeDelimiter)
 
+# Prepare cumulate items 
+for field in cumulate:
+  if not 'title' in field:
+    field['title'] = field['value'] + field['method']
 
+# Collect all the rows in a dict
 dic = {}
 succ = 0;
 err = 0
@@ -105,7 +116,7 @@ for i, row in enumerate(rows):
       c = dic[key]['count']
 
       for field in cumulate:
-        name = field['value'] + field['method']
+        name = field['title']
         if field['method'] == 'Sum':
           dic[key][name] += float(row[field['value']])
         elif field['method'] == 'Average':
@@ -118,14 +129,16 @@ for i, row in enumerate(rows):
           dic[key][name].append(row[field['value']])
         elif field['method'] == 'Median':
           dic[key][name].append(row[field['value']])
+        elif field['method'] == 'Percentile':
+          dic[key][name].append(row[field['value']])
 
       dic[key]['count'] += 1
 
     else:
       newEntry = {'count':1}
       for field in cumulate:
-        name = field['value'] + field['method']
-        if field['method'] == 'Mode' or field['method'] == 'Median':
+        name = field['title']
+        if field['method'] == 'Mode' or field['method'] == 'Median' or field['method'] == 'Percentile':
           newEntry[name] = [row[field['value']]]
         else:
           newEntry[name] = float(row[field['value']])
@@ -146,7 +159,7 @@ if err > 0:
 headings = list(reduceTo)
 headings.append('count')
 for field in cumulate:
-  name = field['value'] + field['method']
+  name = field['title']
   headings.append(name)
 
 writer.writerow(headings)
@@ -157,11 +170,13 @@ for key in dic:
   values = list(key)
   values.append(c)
   for field in cumulate:
-    name = field['value'] + field['method']
+    name = field['title']
     if field['method'] == 'Mode':
       val = mode(dic[key][name])
     elif field['method'] == 'Median':
-      val = median(dic[key][name])
+      val = percentile(dic[key][name], 0.5)
+    elif field['method'] == 'Percentile':
+      val = percentile(dic[key][name], field['p'])
     else:      
       val = round(dic[key][name], decimals)
 
