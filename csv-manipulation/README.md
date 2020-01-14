@@ -25,4 +25,4 @@ This script filters rows from the CSV according to any condition you give.
 With this, you can merge two CSVs giving the names of the columns. It will try to match the values and copies some or all columns from the second CSV to the first. As an example, this is useful if you want to copy longitude and latitude information to a CSV that has country names or codes but no geolocation attached.
 
 ### csv-cumulate.py
-Cumulation means to find all rows that have the same values in one or more columns. All these rows will be cumulated into one line by using one of the following calculation methods: 'Sum', 'Average', 'Min', 'Max', 'Mode', 'Median'.
+Cumulation means to find all rows that have the same values in one or more columns. All these rows will be cumulated into one line by using one of the following calculation methods: 'Sum', 'Average', 'Min', 'Max', 'Mode', 'Median', 'Percentile'.
