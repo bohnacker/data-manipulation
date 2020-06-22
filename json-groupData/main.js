@@ -6,24 +6,32 @@
 //       data – an Array of objects
 //       keys – an Array of Strings that are keys in the data Array
 
-var result = groupData(data, ['NOC', 'Sex', 'Medal']);
+let t, dt;
+let data = data_short;
 
 console.log('Original Data:')
 console.log(data);
+
+console.log('-----------------------------')
+t = Date.now();
+let groupedData = groupData(data, ['NOC', 'Sex', 'Medal']);
+dt = Date.now() - t;
+
 console.log("Result after building groups on ['NOC', 'Sex', 'Medal']:")
-console.log(result);
+console.log(groupedData);
+console.log('It took ' + (dt / 1000) + " seconds to group the data");
 
 
 // Just copy this function to your project and use it like described above.
 function groupData(data, keys) {
-  var result = {};
+  let result = {};
   // group on the first key from the given array
-  var key = keys.shift();
-  for (var i = 0; i < data.length; i++) {
-    var dat = data[i];
+  let key = keys.shift();
+  for (let i = 0; i < data.length; i++) {
+    let dat = data[i];
     // make an array for every unique value for that key
     // and fill it with every row that has that value
-    var val = dat[key];
+    let val = dat[key];
     if (!result[val]) {
       result[val] = []
     }
@@ -33,8 +41,8 @@ function groupData(data, keys) {
   // as long as there are keys for grouping ...
   if (keys.length > 0) {
     // group every entry on the next key
-    var groups = Object.entries(result);
-    for (var i = 0; i < groups.length; i++) {
+    let groups = Object.entries(result);
+    for (let i = 0; i < groups.length; i++) {
       res = groupData(groups[i][1], [...keys]);
       result[groups[i][0]] = res;
     }

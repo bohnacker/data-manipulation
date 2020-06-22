@@ -1,7 +1,7 @@
 // This script works with a filtered cumulation of the following data:
 // https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results/#athlete_events.csv
 
-var data = [
+var data_short = [
   {
     "Sex": "F",
     "NOC": "EST",
