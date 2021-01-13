@@ -31,12 +31,22 @@ function groupData(data, keys) {
     let dat = data[i];
     // make an array for every unique value for that key
     // and fill it with every row that has that value
-    let val = dat[key];
-    if (!result[val]) {
-      result[val] = []
+    if (Array.isArray(dat[key])) {
+      for (let j = 0; j < dat[key].length; j++) {
+        let val = dat[key][j];
+        if (!result[val]) {
+          result[val] = []
+        }
+        result[val].push(dat);
+      }
+    } else {
+      let val = dat[key];
+      if (!result[val]) {
+        result[val] = []
+      }
+      result[val].push(dat);
     }
-    result[val].push(dat);
-  }
+  } 
 
   // as long as there are keys for grouping ...
   if (keys.length > 0) {
@@ -47,7 +57,5 @@ function groupData(data, keys) {
       result[groups[i][0]] = res;
     }
   }
-
   return result;
 }
-
